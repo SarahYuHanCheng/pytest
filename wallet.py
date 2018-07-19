@@ -1,7 +1,7 @@
 # wallet.py
 
 class InsufficientAmount(Exception):
-    pass
+    print("InsufficientAmount")
 
 
 class Wallet(object):
